@@ -1,9 +1,4 @@
 {:paths ["src"]
  :deps {org.clojure/clojure {:mvn/version "1.10.3"}
         org.clojure/core.async {:mvn/version "1.3.618"}
-        org.clojure/spec.alpha {:mvn/version "0.2.187"}}
-
- :aliases
- {:repl
-  {:extra-deps {deps-repl/deps-repl {:git/url "https://github.com/empire-strikes-back/deps-repl"
-                                     :sha "8904c39e136aacafc70c3e066856fc87bcdec127"}}}}}
+        org.clojure/spec.alpha {:mvn/version "0.2.187"}}}
