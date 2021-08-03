@@ -11,10 +11,8 @@ repl(){
 }
 
 main(){
-  clojure \
-    -J-Dclojure.core.async.pool-size=1 \
-    -J-Dclojure.compiler.direct-linking=false \
-    -M -m sportleafs.main
+  node src/sportleafs/cluster.js
+  # node src/sportleafs/main.js
 }
 
 "$@"
