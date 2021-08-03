@@ -1,4 +1,4 @@
-i am sportleafs program - i stream sport tweets to sportleafs-ui
+i am sportleafs program
 
 my language is clojure
 my runtime is jvm
